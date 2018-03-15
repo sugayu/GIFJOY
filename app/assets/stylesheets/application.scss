@@ -17,10 +17,40 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
- body {
-  background-color: #cce4dc;
- }
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
- .index-contents {
+body {
+  background-color: #cce4dc;
+}
+.index-contents {
+  width: 1280px;
+}
+.index-header {
+  width: 1280px;
   text-align: center;
- }
+}
+.index-content {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin: 0 10%;
+  border-top: 5px dashed #fff;
+}
+.index-about-content-left, .index-experience-content-right, .signup, .login {
+  text-align: center;
+}
+.index-about-content-right {
+  padding-top: 20px;
+  color: #E32D6A;
+}
+.index-experience-content-left {
+  padding-top: 60px;
+  padding-left: 150px;
+  color: #E32D6A;
+}
+
+
+

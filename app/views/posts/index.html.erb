@@ -1,6 +1,42 @@
 <div class="index-contents">
-  <a href="#"><img src="assets/gifjoy-logo.png" width="160px" height="100px"></a>
-
-  <img src="assets/keyboard.jpg" alt="サンプル" onmouseover="this.src='assets/keyboard.gif'" onmouseout="this.src='assets/keyboard.jpg'">
+  <div class="index-header">
+    <a href="#"><img src="assets/gifjoy-logo.png" width="160px" height="100px"></a>
+    <img src="assets/keyboard.jpg" alt="サンプル" onmouseover="this.src='assets/keyboard.gif'" onmouseout="this.src='assets/keyboard.jpg'">
+  </div>
   
+  <div class="index-content clearfix">
+    <div class="index-about-content-left  col-sm-3 col-md-6 col-lg-4">
+      <img src="assets/about.png" width="160px" height="160px">
+    </div>
+    <div class="index-about-content-right  col-sm-9 col-md-6 col-lg-8">
+      皆さんはGIFという言葉を聞いたことがありますでしょうか？<br>
+      GIFとは簡単にいうと「画像データを使ったパラパラ漫画」です。<br>
+      何枚のもの画像データを連続で表示させることで動いているかのように見せます。動画よりも細かい動きを表現するのは苦手ですが、データが軽いのが長所です。<br>
+      GIFJOYは、GIFをみんなで共有し合うSNS(ソーシャルネットワークサービス)です。
+    </div>
+  </div>
+
+  <div class="index-content clearfix">
+    <div class="index-experience-content-left col-sm-3 col-md-6 col-lg-8">
+      上にあるキーボードの画像にマウスをおいて見てください。<br>
+      マウスが置かれるとキーボードが動きます。<br>
+    </div>
+    <div class="index-experience-content-right col-sm-9 col-md-6 col-lg-4">
+      <img src="assets/experience.png" width="160px" height="160px">
+    </div>
+  </div>
+
+  <div class="index-content clearfix">
+    <div class="signup col-sm-6 col-md-6 col-lg-6">
+      <%= link_to new_user_registration_path do %>
+      <img src="assets/signup.png" width="160px" height="160px">
+      <% end %>
+    </div>
+    <div class="login col-sm-6 col-md-6 col-lg-6">
+      <%= link_to new_user_session_path do %>
+      <img src="assets/login.png" width="160px" height="160px">
+      <% end %>
+    </div>
+  </div>
+
 </div>
