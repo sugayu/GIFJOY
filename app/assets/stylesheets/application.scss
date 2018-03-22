@@ -26,6 +26,28 @@
 body {
   background-color: #cce4dc;
 }
+
+.color-pink  {
+  color: #E32D6A;
+}
+
+h2 {
+  color: #E32D6A;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  padding: 0 60px;
+  color: #E32D6A;
+  border: 1px dashed #E32D6A;
+}
+
 .index-contents {
   width: 1280px;
 }
@@ -52,5 +74,11 @@ body {
   color: #E32D6A;
 }
 
-
-
+.login-form, .signup-form {
+  margin: 0 20%;
+}
+.login-btn, .signup-btn {
+  background-color: #00E397;
+  color: #E32D6A;
+  border: 1px solid #E32D6A;
+}

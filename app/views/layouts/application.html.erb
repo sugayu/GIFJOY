@@ -9,6 +9,17 @@
 </head>
 
 <body>
+  <nav>
+      <ul class="nav-list">
+        <%= link_to root_path do%>
+        <li class="nav-list-item">Home</li> 
+        <% end %>
+        <li class="nav-list-item">My Page</li>
+        <%= link_to destroy_user_session_path, method: :delete do%>
+        <li class="nav-list-item">Logout</li> 
+        <% end %>
+      </ul>
+  </nav>
   <%= yield %>
 </body>
 </html>
